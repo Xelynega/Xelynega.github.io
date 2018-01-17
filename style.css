@@ -1,44 +1,46 @@
 body{ 
     margin:0px;
     margin-top:0px;
-    background-color:#E0E0E0;
+    background-color:#E4ECEE;
 }
 .navbar{
     overflow: hidden;
-    background-color:#333;
+    background-color:#121212;
     font-family:"Lucida Console", Monaco, monospace;
 }
 .navbar a{
     float: right;
     font-size: 16px;
-    color: #FF6500;
+    color: #c9aa71;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
 .dropdown{
     float:right;
     overflow:hidden;
 }
+
 .dropdown .dropbtn{
     font-size: 16px;
     border: none;
     outline: none;
-    color: #FF6500;
+    color: #c9aa71;
     padding: 14px 16px;
     background-color: inherit;
     font-family:"Lucida Console", Monaco, monospace;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:#FF6500;
-    color:#FFFFFF;
+    background-color:#121212;
+    color:#f1e6d0;
 }
 
 .dropdown-content{
     display:none;
     position:absolute;
-    background-color:#f9f9f9;
+    background-color:#121212;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index:1;
@@ -46,7 +48,7 @@ body{
 
 .dropdown-content a{
     float: none;
-    color: black;
+    color: c9aa71;
     padding: 12px 16px;
     text-decoration: none;
     display:block;
@@ -61,9 +63,9 @@ body{
     display:inline-block;
     font-size:0px;
     overflow:hidden;
-    width:100%;
+    width:64.1%;
     text-align:left;
-    padding-left:15%;
+    padding-left:35.9%;
 }
 
 .heading{
@@ -72,7 +74,8 @@ body{
 }
 
 .icon{
-    width:10%;
-    height:10%;
-    padding-left:10%;
+    width:8%;
+    height:8%;
+    padding-left:5%;
+    padding-top:5%;
 }
